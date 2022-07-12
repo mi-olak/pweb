@@ -48,12 +48,31 @@
   margin: 5% 15%;
 }
 .home-para h3 {
-  font-size: 2.4rem;
+  font-size: 3rem;
+  font-weight: 50;
+}
+.home-para img {
+  display: none;
 }
 .home-para h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   margin-top: 2%;
   width: 100%;
+}
+.skills ol {
+  display: flex;
+  flex-direction: row;
+  margin: 0%;
+  padding: 0%;
+}
+.skills li {
+  width: 25%;
+  margin: 0%;
+  padding-left: 0%;
+}
+.skills img {
+  width: 70%;
+  height: auto;
 }
 .home-line {
   margin-right: 80%;
@@ -97,7 +116,6 @@
   margin-left: 2%;
 }
 .myProjects ul li a {
-  text-decoration: none;
   color: white;
 }
 .myProjects ul li {
@@ -131,6 +149,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: fixed;
+}
+.contactMe button:hover {
+  background-color: rgb(39, 45, 66);
+  cursor: pointer;
 }
 .footer p {
   font-size: 1rem;
@@ -166,6 +188,34 @@
     width: 100%;
     margin: 0%;
     padding: 5%;
+  }
+  .home-para img {
+    width: 15%;
+    display: inline;
+    text-align: center;
+    height: auto;
+  }
+  .skills {
+    display: block;
+    color: white;
+  }
+  .skills ol {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    color: white; 
+  }
+  .skills li {
+    width: 25%;
+    list-style-type: none;
+    color: white;
+  }
+  .skills img {
+    width: 100%;
+    height: auto;
+    color: white;
   }
   .home-para p {
     padding-left: 10%;
@@ -211,6 +261,9 @@
     margin-right: 50%;
     margin-left: 2%;
   }
+  .skill-set {
+    color: white;
+  }
   .aboutMe {
     margin: 0%;
     padding: 5% 2%;
@@ -243,6 +296,10 @@
     padding: 4% 7%;
     border-radius: 50px;
     margin-top: 4%;
+  }
+  .contactMe button:hover {
+    background-color: rgb(39, 45, 66);
+    cursor: pointer;
   }
   .footer p {
     font-size: 1rem;
